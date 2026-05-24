@@ -26,7 +26,7 @@ class MainViewModel: ViewModel() {
             }
             catch(e :Exception){
                 _categorieState.value = _categorieState.value.copy(loading = false,
-                    error = "Error Fetching Categories ${e.message} ho gayele cot")
+                    error = "Error Fetching Categories ${e.message}")
 
             }
 
